@@ -41,11 +41,24 @@ class Node():
     def getInfo():
         return self.infoSet + ": " + getAverageStrategy()
 
+def cfr(cards, history, p0, p1):
+    plays = len(history)
+
 def train(iterations):
     cards = [1, 2, 3]
+    freqOfFirstCard = [0, 0, 0]
     util = 0.0
     for i in range(iterations):
         # Shuffle cards
-        util += cfr(cards, "", 1, 1)
-    print("Average game value: " + util / iterations)
+        for c1 in range(len(cards) - 1, -1, -1):
+            c2 = random.randint(0, c1)
+            temp = cards[c1]
+            cards[c1] = cards[c2]
+            cards[c2] = temp
+        print(i + 1, cards)
+        # util += cfr(cards, "", 1, 1)
+    # print("Average game value: " + util / iterations)
     # Node traversal
+
+if __name__ == "__main__":
+    train(10)
