@@ -5,4 +5,5 @@ Solving Kuhn poker with Counterfactual Regret Minimization will be added in the 
 
 ### Results
 RPS Equilibrium result of Player 1
+
 ![alt text](https://user-images.githubusercontent.com/15992541/31114659-ba07cdf6-a851-11e7-9fd1-914c3349087f.png)
