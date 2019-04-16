@@ -1,7 +1,11 @@
 ### Introduction
-This repository contains the sample code of regret minimiaztion.
-Currently, Rock-Paper-Scissors(RPS) self training and finding RPS Equilibrium is finished.
-Solving Kuhn poker with Counterfactual Regret Minimization will be added in the future.
+This repository contains the example code of regret minimiaztion solving Rock-Paper-Scissors and Kuhn poker problems.
+
+* Rock-Paper-Scissors (RPS)
+    * Self training
+    * Finding RPS Equilibrium
+* Kuhn poker
+    * Self training
 
 
 ### Results
